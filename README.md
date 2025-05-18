@@ -1,36 +1,38 @@
-# java-problem-solving-coursera
+# Java Programming: Solving Problems with Software
 
-#  Perimeter Calculator
+This repository contains my solutions and projects from the **"Java Programming: Solving Problems with Software"** course by Duke University on Coursera.
 
-This project reads a set of 2D points from a text file, constructs a shape from those points, and calculates the **perimeter** of that shape. The final result is the total length around the shape.
+##  What I Learned
 
+Throughout this course, I built a strong foundation in Java programming by solving practical problems and working with real-world data. Each module focused on developing key skills that are essential for any Java developer.
 
-##  How It Works
+###  Highlights
 
-Each `.txt` file contains coordinates of 2D points (one point per line). These points are interpreted as the vertices of a polygon. The program calculates the perimeter by summing the distances between each pair of consecutive points — and finally between the last point and the first.
+- **Wrote my first Java programs** using BlueJ, including a multilingual “Hello!” and a shape analyzer
+-  **Processed DNA strings** to find gene patterns and analyzed hyperlinks in web data
+-  **Worked with CSV files** using Apache Commons CSV to compute statistics across multiple datasets
+-  **Completed a mini project** analyzing baby name popularity over decades in the U.S.
 
-###  Distance Formula
-To calculate the distance between two points `(x1, y1)` and `(x2, y2)`:
+##  Technologies & Concepts Used
 
-`distance = √((x2 - x1)² + (y2 - y1)²)`
+- Java fundamentals: variables, methods, conditionals, loops
+- BlueJ IDE
+- String manipulation and pattern matching
+- Directory and file processing with DirectoryResource
+- Apache Commons CSV library
+- Basic algorithms and data analysis
 
-##  Features
+## Structure
 
-- Calculates total perimeter of a shape
-- Determines average side length
-- Finds the longest side
-- Counts the number of points
-- Identifies the file with the shape having the largest perimeter (when multiple files are provided)
+The repository is organized by modules, with each folder containing the related Java files and documentation.
 
-##  How to Run
+##  Course
 
-Use **BlueJ**, **IntelliJ**, or any Java IDE:
+- **Course Name:** Java Programming: Solving Problems with Software
+- **Instructor:** Duke University (Coursera)
+- **Platform:** [Coursera](https://www.coursera.org/learn/java-programming)
 
-1. Clone/download this repository.
-2. Open the project in your IDE.
-3. Run `PerimeterAssignment.java`.
-4. Choose an input `.txt` file when prompted.
+##  Summary
 
+This course gave me a great start with Java programming and real-world problem solving using data and algorithms. I’ve gained hands-on experience and built several meaningful projects that showcase my understanding of core Java concepts.
 
-
- Note: This project was completed as part of the Coursera course “Java Programming: Solving Problems with Software” by Duke University.

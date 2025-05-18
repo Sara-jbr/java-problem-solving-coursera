@@ -1,4 +1,4 @@
-package org.coursera.duke.solvingproblems.practice1;
+package org.coursera.duke.solvingproblems.module2;
 
 import edu.duke.DirectoryResource;
 import edu.duke.FileResource;
